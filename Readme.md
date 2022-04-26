@@ -10,6 +10,10 @@ The next idea, which I didn’t have time to implement, was to add a thin progre
 
 The next visualization is the statistics screen which would display the 10 most recent baseline updates, which the user can change the range of to display up to 30 (this hasn't been implemented yet, but is the idea). They should be able to also get extra data from a date range they can specify, however, this might overcomplicate things.
 
+In terms of libraries I used, I wanted to use NativeBase for accessibility purposes and for ease of styling that would help when scaling the project down the road. I also wanted to use d3.js because I think it gives me extra control over making graphs as opposed to a library that has already made graph components etc.
+
+My approach to this project was to first read what the challenge was about. Then read about what the technology measures. To be honest, when I saw that it was going to take 2-3 hours I thought that it probably wouldn't take that short of a time, so I took note of that in constructing how my project would be made. I checked how the technology is measured and the first thing I noticed was that a baseline reading would be compared to subsequent readings. So, there would be a sort of timeline of readings that would need to be displayed, and in those readings would I thought that there would need to be a way to display the anxiety levels with enough information to kind of discern whether the user is excited or not, so I chose anxiety level, anxiety state, and bpm to be displayed.
+
 ## To-Dos
 
 - Label does not show the correct date in accordance to the anxiety level. Perhaps due to how the scaling was done. Find another way to abstract the data to exactly show the correct date with anxiety level.
