@@ -8,6 +8,8 @@ I chose to represent the anxiety level through a percentage done with a donut ch
 
 The next idea, which I didn’t have time to implement, was to add a thin progress bar to show the baselineProgress in a drawer menu on the left, along with the participantId, organizationID and careTeamID. The progress bar would have a small-ish text on top of it displaying, “capturing new baseline”.
 
+The next visualization is the statistics screen which would display the 10 most recent baseline updates, which the user can change the range of to display up to 30 (this hasn't been implemented yet, but is the idea). They should be able to also get extra data from a date range they can specify, however, this might overcomplicate things.
+
 ## To-Dos
 
 - Label does not show the correct date in accordance to the anxiety level. Perhaps due to how the scaling was done. Find another way to abstract the data to exactly show the correct date with anxiety level.
